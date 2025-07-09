@@ -11,7 +11,7 @@
       font-family: "Inter", sans-serif;
       background-color: #ffffff;
     }
-
+    
     .info-box {
       display: flex;
       align-items: flex-start;
@@ -19,42 +19,47 @@
       border-radius: 15px;
       padding: 20px;
       max-width: 800px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      margin: 0 auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 0 auto; /* Centers the container and adds no vertical margin */
     }
-
+    
     .info-box img {
       width: 50px;
       height: 50px;
       margin-right: 15px;
       flex-shrink: 0;
     }
-
+    
     .info-text {
       font-size: 16px;
       color: #333;
     }
-
+    
     .info-text strong {
       display: block;
       margin-bottom: 8px;
       font-weight: bold;
     }
-
-    p {
+    
+    ul {
       margin: 0;
+      padding-left: 20px;
+    }
+    
+    li {
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
-
   <div class="info-box">
-    <img src="Learning%20Activity.png" alt="Learning Activity Icon">
+    <img src="Learning%20Activity.png" alt="Learning Activity">
     <div class="info-text">
       <strong>Learning Activity – Create an avatar</strong>
-      <p>Copy and paste the prompt below to help the AI create an avatar for you. It will ask you one question at a time. Start the prompt by saying, “Hi”.</p>
+      <ul>
+        <li>Copy and paste the prompt below to help the AI create an avatar for you. It will ask you one question at a time. Start the prompt by saying, “Hi”.</li>
+      </ul>
     </div>
   </div>
-
 </body>
 </html>
