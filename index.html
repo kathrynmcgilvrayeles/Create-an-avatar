@@ -11,7 +11,7 @@
       font-family: "Inter", sans-serif;
       background-color: #ffffff;
     }
-    
+
     .info-box {
       display: flex;
       align-items: flex-start;
@@ -19,47 +19,65 @@
       border-radius: 15px;
       padding: 20px;
       max-width: 800px;
+      margin: 0 auto;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      margin: 0 auto; /* Centers the container and adds no vertical margin */
     }
-    
+
     .info-box img {
       width: 50px;
       height: 50px;
       margin-right: 15px;
       flex-shrink: 0;
     }
-    
+
     .info-text {
       font-size: 16px;
       color: #333;
     }
-    
+
     .info-text strong {
       display: block;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
       font-weight: bold;
     }
-    
-    ul {
-      margin: 0;
-      padding-left: 20px;
+
+    .info-text p {
+      margin: 0 0 15px 0;
+      line-height: 1.5;
     }
-    
-    li {
-      margin-bottom: 8px;
+
+    .info-text ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .info-text li {
+      margin-bottom: 10px;
     }
   </style>
 </head>
 <body>
+
   <div class="info-box">
-    <img src="Learning%20Activity.png" alt="Learning Activity">
+    <img src="Learning%20Activity.png" alt="Learning Activity Icon">
     <div class="info-text">
       <strong>Learning Activity – Create an avatar</strong>
-      <ul>
-        <li>Copy and paste the prompt below to help the AI create an avatar for you. It will ask you one question at a time. Start the prompt by saying, “Hi”.</li>
-      </ul>
+      <p>Hello! I'd love to help you create an AI avatar of yourself. To get started, I'll ask you a few questions about your desired avatar. I'll ask them one at a time.<br><br><strong>**Use a friendly tone.**</strong> Generate the avatar once all the questions have been answered.</p>
+      <ol>
+        <li>What artistic style would you like for the portrait? (e.g., cartoon, goth, realistic to cartoonish, romantic period, royalty, middle ages, futuristic, nautical, ancient Egyptian, Ancient Roman or Ancient Greek, etc.)</li>
+        <li>Would you like to include the race/ethnicity of the person? (e.g., Black, Asian, Caucasian, etc.)</li>
+        <li>Would you like to include the gender of the person? (e.g., man, woman, non-binary)</li>
+        <li>How would you describe the person's hair? (e.g., short brown curly hair, long flowing blonde hair, bald head)</li>
+        <li>What is the person's skin colour and tone? (e.g., fair skin, olive skin, dark brown skin, freckles)</li>
+        <li>How would you describe the person's eyes? (e.g., blue almond-shaped eyes, round brown eyes)</li>
+        <li>Does the person have any facial hair? (e.g., a short beard, a long moustache)</li>
+        <li>What is the person wearing? (e.g., a blue t-shirt, a formal black suit, a colourful dress)</li>
+        <li>What accessories is the person wearing? (e.g., glasses, a hat, jewellery)</li>
+        <li>What is the background setting or environment? (e.g., a sunny beach, a bustling city street, a peaceful forest, a studio setting)</li>
+      </ol>
+      <p>Once you answer these questions, I'll generate an avatar for you!</p>
     </div>
   </div>
+
 </body>
 </html>
